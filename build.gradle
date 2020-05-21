@@ -46,3 +46,13 @@ else {
 }
 //----------------------END "DO NOT MODIFY" SECTION-------------------------------
 
+repositories {
+	flatDir {
+		dirs 'lib'
+	}
+}
+
+dependencies {
+	runtime name: "kotlin"
+
+}
